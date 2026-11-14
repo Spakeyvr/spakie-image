@@ -1,0 +1,17 @@
+# Main model: 42.4M parameters.
+# Measured on an M5 Max (40-core GPU): ~1.67 steps/s at batch 128 in bf16,
+# so 100k steps (about 9 passes over the data) take roughly 17 hours.
+[model]
+dim = 512
+depth = 12
+heads = 8
+
+[train]
+batch_size = 128
+lr = 2e-4
+lr_end = 2e-5
+warmup_steps = 2000
+max_steps = 100000
+eval_every = 2500
+val_batches = 32
+precision = "bf16"
