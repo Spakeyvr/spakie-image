@@ -3,6 +3,8 @@ name = "spakie"
 version = "0.1.0"
 description = "Text-to-pixel-art masked discrete diffusion model, trained from scratch in MLX"
 requires-python = ">=3.12"
+license = "MIT"
+license-files = ["LICENSE"]
 dependencies = [
     "mlx>=0.30",
     "numpy>=2.0",

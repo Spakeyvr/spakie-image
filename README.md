@@ -56,3 +56,7 @@ tests/
 ```
 
 Trained weights and the dataset are not in this repository.
+
+## Licence
+
+The code is MIT licensed, see [LICENSE](LICENSE). The dataset has its own terms; see its dataset card.
