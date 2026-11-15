@@ -1,7 +1,18 @@
-data/
-runs/
+# Dataset, checkpoints and generated sprites (anchored to the repo root so
+# they do not also match the src/spakie/data package)
+/data/
+/runs/
+/out/
+
+# Python
 .venv/
 __pycache__/
 *.pyc
 .pytest_cache/
+*.egg-info/
+/dist/
+/build/
+
+# Local tooling
 .DS_Store
+.claude/settings.local.json
