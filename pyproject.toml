@@ -15,6 +15,7 @@ spakie-prepare = "spakie.data.prepare:main"
 spakie-train = "spakie.train:main"
 spakie-sample = "spakie.sample:main"
 spakie-eval = "spakie.eval:main"
+spakie-web = "spakie.web:main"
 
 [dependency-groups]
 dev = ["pytest>=8.0"]

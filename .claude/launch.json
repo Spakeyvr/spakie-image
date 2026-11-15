@@ -1,0 +1,18 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "spakie-web",
+      "runtimeExecutable": "uv",
+      "runtimeArgs": [
+        "run",
+        "spakie-web",
+        "--run",
+        "runs/base",
+        "--port",
+        "7860"
+      ],
+      "port": 7860
+    }
+  ]
+}
